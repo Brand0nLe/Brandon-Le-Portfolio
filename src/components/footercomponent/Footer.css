@@ -1,3 +1,16 @@
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-social-icons a {
+  color: #333;
+  margin-right: 10px;
+}
+
+
+
 footer {
   background-color: #f8f9fa;
   padding: 30px 0;
@@ -5,13 +18,99 @@ footer {
   margin-top: 50px;
 }
 
-.social-icons {
+.footer-form {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
 
-.social-icons a {
-  color: #333;
-  margin-right: 10px;
+.footer-form label {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.footer-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.footer-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.footer-form button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.footer-form input:invalid,
+.footer-form textarea:invalid {
+  border-color: #dc3545;
+}
+
+.footer-form input:valid,
+.footer-form textarea:valid {
+  border-color: #28a745;
+}
+
+.footer-form input:focus,
+.footer-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.footer-form input::-webkit-input-placeholder,
+.footer-form textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+.footer-form input::-moz-placeholder,
+.footer-form textarea::-moz-placeholder {
+  color: #999;
+}
+
+.footer-form input:-ms-input-placeholder,
+.footer-form textarea:-ms-input-placeholder {
+  color: #999;
+}
+
+.footer-form input::-ms-input-placeholder,
+.footer-form textarea::-ms-input-placeholder {
+  color: #999;
+}
+
+
+
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .footer-form input,
+  .footer-form textarea {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .footer-form textarea {
+    min-height: 80px;
+  }
 }
