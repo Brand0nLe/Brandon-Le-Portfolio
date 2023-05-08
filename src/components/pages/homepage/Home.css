@@ -1,9 +1,15 @@
 img {
-  max-width: 100% !important;
+  max-width: 100%;
+  cursor: pointer;
 }
 
 #home {
   margin-top: 70px;
+}
+
+
+.social-icons-container {
+  overflow-x: hidden;
 }
 
 .social-icons {
@@ -20,4 +26,8 @@ img {
 .social-icons a:hover {
   color: #ffffff;
   cursor: pointer;
+}
+
+.sizing{
+  height: 100vh;
 }
