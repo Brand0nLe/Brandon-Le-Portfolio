@@ -1,3 +1,14 @@
 img {
     max-width: 100%!important;
   }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin-right: 10px;
+  }
