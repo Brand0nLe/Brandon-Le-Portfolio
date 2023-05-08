@@ -1,0 +1,28 @@
+.skill-table {
+    border-collapse: collapse;
+    margin-top: 2rem;
+  }
+  
+  .skill-table td,
+  .skill-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .skill-table th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .skill-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .skill-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .skill-table tr:hover td {
+    font-weight: bold;
+  }
+  

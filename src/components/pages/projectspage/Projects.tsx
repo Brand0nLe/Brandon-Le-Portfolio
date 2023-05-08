@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 // import project1 from '../assets/project1.jpg';
 // import project2 from '../assets/project2.jpg';
 // import project3 from '../assets/project3.jpg';
-import '../styles/global.css';
+import '../projectspage/Projects.css';
 
 const Projects = () => {
   return (

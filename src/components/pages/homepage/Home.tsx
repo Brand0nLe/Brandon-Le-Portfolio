@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import '../styles/global.css';
+import '../homepage/Home.css';
+import '../components/style/Global.css';
 
 const Home = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../styles/global.css';
+import '../contactpage/Contact.css';
 
 const Contact = () => {
   return (
