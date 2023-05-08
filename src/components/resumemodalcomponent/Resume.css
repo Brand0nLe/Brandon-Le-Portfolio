@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: auto;
-  background-color: darkgoldenrod;   /* This is a temp color for the modal */
+  background-color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   padding: auto;
 }
@@ -17,14 +16,14 @@
 
 
 .resume-paper {
-  position: absolute;
-  width: 70vw;
-  height: 100%;
+  width: 80vw;
+  max-height: 100%;
+  height: 100vh;
   overflow: auto;
   outline: none;
-  padding: 20px;
+  padding: 15px;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 3px;
   box-shadow: 0 0 400px rgba(0, 0, 0, 0.5);
 }
 

@@ -1,10 +1,11 @@
 import React from 'react';
 import { Modal, Button } from '@material-ui/core';
 import { AiOutlineClose } from 'react-icons/ai';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import getResumePdf from '../services/PdfService';
 import resumePdf from '../assets/images/brandonresume.pdf';
 import '../resumemodalcomponent/Resume.css';
+
 type ResumeModalProps = {
   closeModal: () => void;
 };
@@ -36,47 +37,57 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ closeModal }) => {
 
   const closeButtonVariants = {
     hover: {
-      scale: 50,
+      scale: 1.2,
       transition: { duration: 0.2 },
     },
     tap: {
-      scale: 0.9,
+      scale: 0.8,
       transition: { duration: 0.2 },
     },
   };
 
   return (
-    <>
-      {pdfUrl ? (
+    <AnimatePresence mode="wait">
+      {pdfUrl && (
         <Modal
           open={true}
           onClose={handleCloseModal}
-          aria-labelledby="Resume PDF Modal"
-          aria-describedby="Modal with download option for resume PDF file"
+          aria-labelledby="Modal Title Goes Here"
+          aria-describedby="Modal Description Goes Here"
           BackdropProps={{
             invisible: true,
           }}
         >
-          <div className="resume-modal">
-            <button className="resume-close" onClick={handleCloseModal}>
-              <motion.span
-                variants={closeButtonVariants}
-                whileHover="hover"
-                whileTap="tap"
-              >
-                <AiOutlineClose />
-              </motion.span>
-            </button>
+          <motion.div
+            className="resume-modal"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0, transition: { duration: 0.5, ease: "easeInOut", delay: 0.5 }, scale: 0.8 }}
+          >
+
+            <motion.button className="resume-close" onClick={handleCloseModal} variants={closeButtonVariants} whileHover="hover" whileTap="tap">
+              <AiOutlineClose />
+            </motion.button>
+
             <div className="resume-content resume-paper">
-              <embed src={pdfUrl} type="application/pdf" style={{ maxHeight: "100vh", width: "100%", height: "100%" }} />
-              <Button variant="contained" color="default" href="#" onClick={handleDownload}>
+              <embed
+                src={pdfUrl}
+                type="application/pdf"
+                style={{ maxHeight: '90vh', width: '100%', height: '100%' }}
+              />
+              <Button
+                variant="contained"
+                color="default"
+                href="#"
+                onClick={handleDownload}
+              >
                 Download Resume
               </Button>
             </div>
-          </div>
+          </motion.div>
         </Modal>
-      ) : null}
-    </>
+      )}
+    </AnimatePresence>
   );
 };
 
