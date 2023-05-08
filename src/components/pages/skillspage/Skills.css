@@ -50,31 +50,32 @@
 }
 
 @media (max-width: 767px) {
+
   #skills table th,
   #skills table td {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
 
   #skills h2 {
-    margin-top: 3rem!important;
+    margin-top: 3rem !important;
   }
 
 
   .skill-table tbody tr {
-    display: flex!important;
-    flex-direction: column!important;
-    align-items: center!important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
   }
 
   .skill-table tbody td {
-    text-align: center!important;
+    text-align: center !important;
   }
 
   .skill-table tbody td:not(:last-child) {
-    margin-bottom: 1rem!important;
+    margin-bottom: 1rem !important;
   }
 }
 
-body{
-  background-color: red!important;
+body {
+  background-color: red !important;
 }

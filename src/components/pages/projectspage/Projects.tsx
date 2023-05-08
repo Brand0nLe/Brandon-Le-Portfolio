@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 // import project1 from '../assets/project1.jpg';
 // import project2 from '../assets/project2.jpg';
@@ -11,7 +10,7 @@ const Projects = () => {
       <Container>
         <h2>Projects</h2>
         <Row>
-        <Col md={4}>
+          <Col md={4}>
             <Card>
               {/* <Card.Img variant="top" src={project1} /> */}
               <Card.Body>
@@ -54,4 +53,4 @@ const Projects = () => {
 };
 
 export default Projects;
-  
+

@@ -104,12 +104,13 @@ footer {
 
 /* Responsiveness */
 @media (max-width: 768px) {
+
   .footer-form input,
   .footer-form textarea {
     width: 100%;
     font-size: 0.8rem;
   }
-  
+
   .footer-form textarea {
     min-height: 80px;
   }

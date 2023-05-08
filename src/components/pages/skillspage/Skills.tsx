@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { Variants } from 'framer-motion';
@@ -79,7 +78,7 @@ const Skills = () => {
                   </td>
                   <td>
                     <motion.span variants={skillListVariants} whileHover="hover">
-                    placeholder skill 2
+                      placeholder skill 2
                     </motion.span>
                   </td>
                   <td>
