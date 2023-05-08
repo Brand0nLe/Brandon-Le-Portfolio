@@ -1,28 +1,43 @@
 .skill-table {
-    border-collapse: collapse;
-    margin-top: 2rem;
-  }
-  
-  .skill-table td,
-  .skill-table th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  .skill-table th {
-    text-align: left;
-    background-color: #f2f2f2;
-  }
-  
-  .skill-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .skill-table tr:hover {
-    background-color: #ddd;
-  }
-  
-  .skill-table tr:hover td {
-    font-weight: bold;
-  }
-  
+  border-collapse: collapse!important;
+  margin-top: 2rem!important;
+  width: 100%!important;
+}
+
+.skill-table td,
+.skill-table th {
+  border: 1px solid #ddd!important;
+  padding: 1rem!important;
+}
+
+.skill-table th {
+  text-align: left!important;
+  background-color: #f2f2f2!important;
+}
+
+.skill-table tr:nth-child(even) {
+  background-color: #f2f2f2!important;
+}
+
+.skill-table tr:hover {
+  background-color: #ddd!important;
+  cursor: pointer!important;
+}
+
+.skill-table tbody tr:hover td {
+  font-weight: bold!important;
+}
+
+.skill-table td {
+  vertical-align: middle!important;
+}
+
+.skill-table th:first-child,
+.skill-table td:first-child {
+  border-left: none!important;
+}
+
+.skill-table th:last-child,
+.skill-table td:last-child {
+  border-right: none!important;
+}
