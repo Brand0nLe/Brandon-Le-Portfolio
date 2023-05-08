@@ -1,12 +1,25 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import { Variants } from 'framer-motion';
 import '../skillspage/Skills.css';
 
 const Skills = () => {
   const skillTableVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0 }
+  };
+
+
+  const skillListVariants: Variants = {
+    hover: {
+      scale: 1.2,
+      transition: {
+        duration: 0.5,
+        repeat: Infinity,
+        repeatType: "reverse"
+      }
+    }
   };
 
   return (
@@ -25,24 +38,72 @@ const Skills = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>HTML</td>
-                  <td>Node.js</td>
-                  <td>TypeScript</td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      HTML
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      Node.js
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      TypeScript
+                    </motion.span>
+                  </td>
                 </tr>
                 <tr>
-                  <td>CSS</td>
-                  <td>Express</td>
-                  <td>Git</td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      CSS
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      placeholder skill
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      Git
+                    </motion.span>
+                  </td>
                 </tr>
                 <tr>
-                  <td>JavaScript</td>
-                  <td>MongoDB</td>
-                  <td>Bootstrap</td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      JavaScript
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                    placeholder skill 2
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      Bootstrap
+                    </motion.span>
+                  </td>
                 </tr>
                 <tr>
-                  <td>React</td>
-                  <td>SQL</td>
-                  <td>Material UI</td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      React
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      SQL
+                    </motion.span>
+                  </td>
+                  <td>
+                    <motion.span variants={skillListVariants} whileHover="hover">
+                      Material UI
+                    </motion.span>
+                  </td>
                 </tr>
               </tbody>
             </motion.table>

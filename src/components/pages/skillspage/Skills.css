@@ -1,43 +1,80 @@
-.skill-table {
-  border-collapse: collapse!important;
-  margin-top: 2rem!important;
-  width: 100%!important;
+#skills h2 {
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
-.skill-table td,
-.skill-table th {
-  border: 1px solid #ddd!important;
-  padding: 1rem!important;
+#skills table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.skill-table th {
-  text-align: left!important;
-  background-color: #f2f2f2!important;
+#skills table th,
+#skills table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.skill-table tr:nth-child(even) {
-  background-color: #f2f2f2!important;
+#skills table th {
+  background-color: #f2f2f2;
 }
 
-.skill-table tr:hover {
-  background-color: #ddd!important;
-  cursor: pointer!important;
+#skills table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-.skill-table tbody tr:hover td {
-  font-weight: bold!important;
+#skills table tr:hover {
+  background-color: #ddd;
 }
 
-.skill-table td {
-  vertical-align: middle!important;
+#skills table tr:hover td span {
+  font-weight: bold;
 }
 
-.skill-table th:first-child,
-.skill-table td:first-child {
-  border-left: none!important;
+#skills table tr td span {
+  display: inline-block;
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  transition: border 0.2s ease-in-out;
 }
 
-.skill-table th:last-child,
-.skill-table td:last-child {
-  border-right: none!important;
+#skills table tr td span:hover {
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  #skills table th,
+  #skills table td {
+    font-size: 1rem!important;
+  }
+
+  #skills h2 {
+    margin-top: 3rem!important;
+  }
+
+
+  .skill-table tbody tr {
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+  }
+
+  .skill-table tbody td {
+    text-align: center!important;
+  }
+
+  .skill-table tbody td:not(:last-child) {
+    margin-bottom: 1rem!important;
+  }
+}
+
+body{
+  background-color: red!important;
 }

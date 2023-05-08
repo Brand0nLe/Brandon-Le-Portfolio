@@ -1,14 +1,23 @@
 img {
-    max-width: 100%!important;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .social-icons a {
-    color: #333;
-    margin-right: 10px;
-  }
+  max-width: 100%;
+}
+
+#home {
+  margin-top: 80px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #333;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
