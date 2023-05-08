@@ -1,34 +1,42 @@
 .resume-modal {
-  display: flex!important;
-  align-items: center!important;
-  justify-content: center!important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: darkgoldenrod;   /* This is a temp color for the modal */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  padding: auto;
 }
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .resume-paper {
-  position: absolute!important;
-  width: 80vw!important;
-  height: 80vh!important;
-  overflow: auto!important;
-  outline: none!important;
-  padding: 20px!important;
-  background-color: white!important;
-  border-radius: 10px!important;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)!important;
+  position: absolute;
+  width: 70vw;
+  height: 100%;
+  overflow: auto;
+  outline: none;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 400px rgba(0, 0, 0, 0.5);
 }
 
-.resume-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.resume-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
-}
 
 .resume-close {
   cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
 }

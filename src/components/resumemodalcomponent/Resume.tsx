@@ -1,9 +1,10 @@
 import React from 'react';
 import { Modal, Button } from '@material-ui/core';
-import '../resumemodalcomponent/Resume';
+import { AiOutlineClose } from 'react-icons/ai';
+import { motion } from 'framer-motion';
 import getResumePdf from '../services/PdfService';
 import resumePdf from '../assets/images/brandonresume.pdf';
-
+import '../resumemodalcomponent/Resume.css';
 type ResumeModalProps = {
   closeModal: () => void;
 };
@@ -33,20 +34,45 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ closeModal }) => {
     closeModal();
   };
 
+  const closeButtonVariants = {
+    hover: {
+      scale: 50,
+      transition: { duration: 0.2 },
+    },
+    tap: {
+      scale: 0.9,
+      transition: { duration: 0.2 },
+    },
+  };
+
   return (
     <>
       {pdfUrl ? (
         <Modal
           open={true}
           onClose={handleCloseModal}
-          aria-labelledby="Modal Title Goes Here"
-          aria-describedby="Modal Description Goes Here"
+          aria-labelledby="Resume PDF Modal"
+          aria-describedby="Modal with download option for resume PDF file"
+          BackdropProps={{
+            invisible: true,
+          }}
         >
           <div className="resume-modal">
-            <embed src={pdfUrl} type="application/pdf" style={{ maxHeight: "90vh" }} />
-            <Button variant="contained" color="default" href="#" onClick={handleDownload}>
-              Download Resume
-            </Button>
+            <button className="resume-close" onClick={handleCloseModal}>
+              <motion.span
+                variants={closeButtonVariants}
+                whileHover="hover"
+                whileTap="tap"
+              >
+                <AiOutlineClose />
+              </motion.span>
+            </button>
+            <div className="resume-content resume-paper">
+              <embed src={pdfUrl} type="application/pdf" style={{ maxHeight: "100vh", width: "100%", height: "100%" }} />
+              <Button variant="contained" color="default" href="#" onClick={handleDownload}>
+                Download Resume
+              </Button>
+            </div>
           </div>
         </Modal>
       ) : null}
