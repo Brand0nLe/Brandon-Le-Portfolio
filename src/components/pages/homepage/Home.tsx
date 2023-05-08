@@ -14,7 +14,7 @@ const Home = () => {
     },
     hover: {
       border: "5px solid #ffffff",
-      borderRadius: "25%",
+      borderRadius: "2%",
       transition: { duration: 0.5 }
     }
   };
