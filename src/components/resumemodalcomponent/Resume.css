@@ -1,19 +1,19 @@
 .resume-modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
 }
 
 .resume-paper {
-  position: absolute;
-  width: 80vw;
-  height: 80vh;
-  overflow: auto;
-  outline: none;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute!important;
+  width: 80vw!important;
+  height: 80vh!important;
+  overflow: auto!important;
+  outline: none!important;
+  padding: 20px!important;
+  background-color: white!important;
+  border-radius: 10px!important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)!important;
 }
 
 .resume-header {
