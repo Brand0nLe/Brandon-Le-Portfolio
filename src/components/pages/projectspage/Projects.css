@@ -1,0 +1,47 @@
+#projects {
+  padding: 60px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card-wrapper {
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #ff0066;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #d60052;
+  transform: translateY(-2px);
+}

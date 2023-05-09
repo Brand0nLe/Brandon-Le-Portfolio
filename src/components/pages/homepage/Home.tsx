@@ -32,12 +32,12 @@ const Home = () => {
 
   const socialIconsVariants = {
     initial: {
-      scale: 10,
+      scale: 8,
       opacity: 0,
       y: -50
     },
     animate: {
-      scale: 7,
+      scale: 5,
       opacity: 1,
       y: 100,
       transition: { delay: 1, duration: 2 }
