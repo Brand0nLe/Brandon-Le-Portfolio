@@ -1,31 +1,18 @@
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import logo from '../assets/images/BLLOGO.png';
 import '../navbarcomponent/Header.css';
 
 const Header = () => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const handleToggle = () => {
-    setIsExpanded(!isExpanded);
-  };
-
   return (
-    <Navbar expand="lg" className="navbar-custom">
-      <Link to="/" className="navbar-brand">My Portfolio</Link>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}>
-        <motion.span
-          animate={isExpanded ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
-        ></motion.span>
-        <motion.span
-          animate={isExpanded ? { opacity: 0 } : { opacity: 1 }}
-        ></motion.span>
-        <motion.span
-          animate={isExpanded ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
-        ></motion.span>
-      </Navbar.Toggle>
-      <Navbar.Collapse id="basic-navbar-nav" className="navbar-links">
+    <Navbar bg="light" expand="lg">
+            <div className="logo">
+      <Link to="/">
+        <img src={logo} alt="My Portfolio Logo" className="navbar-brand" />
+      </Link>
+      </div>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/skills" className="nav-link">Skills</Link>
@@ -38,3 +25,4 @@ const Header = () => {
 };
 
 export default Header;
+
