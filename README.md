@@ -14,10 +14,11 @@ This is a simple portfolio website built with React, Bootstrap, and Material UI.
 
 - React.js
 - Bootstrap
-- Material UI
 - CSS
 - HTML
 - TypeScript
+- React-icons
+- Framer-motion
 
 ## Setup
 
