@@ -53,25 +53,38 @@
 
   #skills table th,
   #skills table td {
-    font-size: 1rem !important;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    width: 100%;
+  }
+
+  #skills table th {
+    display: none;
+  }
+
+  #skills table tr:nth-child(even) {
+    background-color: transparent;
+  }
+
+  #skills table tr:hover {
+    background-color: transparent;
+  }
+
+  #skills table tr td span {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  #skills table tr td span:last-child {
+    margin-bottom: 0;
   }
 
   #skills h2 {
-    margin-top: 3rem !important;
-  }
-
-
-  .skill-table tbody tr {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-
-  .skill-table tbody td {
-    text-align: center !important;
-  }
-
-  .skill-table tbody td:not(:last-child) {
-    margin-bottom: 1rem !important;
+    margin-top: 3rem;
+    text-align: center;
   }
 }
