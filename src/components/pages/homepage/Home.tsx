@@ -71,11 +71,11 @@ const Home = () => {
             />
           </Col>
           <Col md={8}>
-            <h2>About Me</h2>
+            <h1 className='name-style'>Brandon Le</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut turpis eget nunc efficitur blandit. Duis quis faucibus nulla. Sed id molestie justo. Proin non enim risus. Morbi non leo id justo pharetra congue vel ac orci.</p>
             <p>Ut nec nunc vitae ipsum tristique eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ut ante nulla. Aenean viverra nisl ac dui porttitor commodo. Nam nec risus vel velit pretium commodo quis in lorem. Etiam a est sit amet nulla tincidunt bibendum.</p>
-            
-            
+
+
             <motion.div className="social-icons" variants={socialIconsVariants} initial="initial" animate="animate">
               <motion.a
                 href="https://github.com/Brand0nLe"

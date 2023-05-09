@@ -27,3 +27,9 @@ img {
   color: #ffffff;
   cursor: pointer;
 }
+
+.name-style{
+  font-family: PoppinsExtraLight;
+  font-size: 5rem;
+  color: #ffffff;
+}
