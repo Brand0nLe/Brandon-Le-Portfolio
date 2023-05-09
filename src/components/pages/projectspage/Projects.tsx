@@ -89,7 +89,10 @@ const Projects = () => {
             </motion.div>
           </Col>
         </Row>
-        <Row>
+
+
+
+        {/* <Row>
           <Col md={4}>
             <motion.div
               className="card-wrapper"
@@ -99,7 +102,7 @@ const Projects = () => {
               transition={{ delay: 0.9 }}
             >
               <Card>
-                {/* <Card.Img variant="top" src={project4} /> */}
+                <Card.Img variant="top" src={project4} />
                 <Card.Body>
                   <Card.Title>Project 4</Card.Title>
                   <Card.Text>
@@ -122,7 +125,7 @@ const Projects = () => {
               transition={{ delay: 1.2 }}
             >
               <Card>
-                {/* <Card.Img variant="top" src={project5} /> */}
+                <Card.Img variant="top" src={project5} />
                 <Card.Body>
                   <Card.Title>Project 5</Card.Title>
                   <Card.Text>
@@ -145,7 +148,7 @@ const Projects = () => {
               transition={{ delay: 1.5 }}
             >
               <Card>
-                {/* <Card.Img variant="top" src={project6} /> */}
+                <Card.Img variant="top" src={project6} />
                 <Card.Body>
                   <Card.Title>Project 6</Card.Title>
                   <Card.Text>
@@ -159,7 +162,12 @@ const Projects = () => {
               </Card>
             </motion.div>
           </Col>
-        </Row>
+        </Row> */}
+
+
+
+
+
       </Container>
     </div>
   );
