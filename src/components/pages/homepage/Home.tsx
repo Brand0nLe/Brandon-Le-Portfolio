@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import profilePicture from '../../assets/images/profilepicture.jpg';
+import ProfilePicture from '../../assets/images/profilepicture.jpg';
 import ResumeModal from '../../resumemodalcomponent/Resume';
 import '../homepage/Home.css';
 
@@ -17,7 +17,7 @@ const Home = () => {
     setModalOpen(false);
   };
 
-  const profilePictureVariants = {
+  const ProfilePictureVariants = {
     initial: {
       border: "5px solid transparent",
       borderRadius: "50%",
@@ -61,10 +61,10 @@ const Home = () => {
         <Row>
           <Col md={4}>
             <motion.img
-              src={profilePicture}
+              src={ProfilePicture}
               alt="Profile"
               className="img-fluid"
-              variants={profilePictureVariants}
+              variants={ProfilePictureVariants}
               initial="initial"
               whileHover="hover"
               onClick={handleOpenModal}
@@ -77,7 +77,7 @@ const Home = () => {
               </Col>
               <Col md={4}>
                 <motion.div className="social-icons ml-auto" variants={socialIconsVariants} initial="initial" animate="animate">
-                  <motion.a
+                  {/* <motion.a
                     href="https://github.com/Brand0nLe"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -104,9 +104,10 @@ const Home = () => {
                     whileTap="tap"
                   >
                     <FaEnvelope />
-                  </motion.a>
+                  </motion.a> */}
                   <motion.a
                     href="#"
+                    className=""
                     onClick={handleOpenModal}
                     variants={iconVariants}
                     whileHover="hover"
@@ -114,7 +115,7 @@ const Home = () => {
                   >
                     <FaFilePdf />
                   </motion.a>
-                </motion.div>
+                </motion.div> 
               </Col>
             </Row>
 
@@ -131,7 +132,7 @@ I have experience in [insert industry or company] and have held roles such as [i
 Outside of my professional life, I am known for my [insert personal qualities]. I enjoy practicing cooking and learning new recipes, particularly Vietnamese dishes. It's a fun and relaxing break from coding all day.
 </p>
 <p>
-My short-term goals within the next 3-6 months are to further develop my front-end skills, focusing on React, Javascript, CSS, and HTML while continuing to work on my Medication Adherence application. In the next year, I hope to have a fully functioning application available as a mobile app and desktop website.
+My current goals are to further develop my front-end skills, focusing on React, Javascript, CSS, and HTML while continuing to develop my Medication Adherence application. In the next year, I hope to have a fully functioning application available as a mobile app and desktop website.
 </p>
 <p>
 Thank you for visiting my portfolio, and please feel free to reach out to me at [insert email] or through my [insert social media link(s)].

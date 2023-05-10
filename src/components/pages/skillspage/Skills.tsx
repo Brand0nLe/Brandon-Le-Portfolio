@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { Variants } from 'framer-motion';
 import { IoIosFastforward, IoLogoAngular } from 'react-icons/io';
-import { FaDatabase, FaHeart } from 'react-icons/fa';
+import { FaDatabase, FaSlack } from 'react-icons/fa';
 import { MdExtension } from 'react-icons/md';
 import {
   SiJavascript,
@@ -115,8 +115,8 @@ const Skills = () => {
                   </td>
                   <td>
                     <motion.span variants={skillListVariants} whileHover="hover">
-                      <IoIosFastforward />
-                      Framer-Motion
+                      <FaSlack />
+                      Slack
                     </motion.span>
                   </td>
                 </tr>
@@ -175,8 +175,8 @@ const Skills = () => {
                   </td>
                   <td>
                     <motion.span variants={skillListVariants} whileHover="hover">
-                      <SiTypescript />
-                      TypeScript
+                      <IoIosFastforward />
+                      Framer-Motion
                     </motion.span>
                   </td>
                 </tr>
