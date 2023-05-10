@@ -13,18 +13,21 @@ const Footer = () => {
   return (
     <footer>
       <Container>
+        <div className='footer-top-space'></div>
         <Row>
-          <Col md={6}>
-            <p>© 2023 Cuong Tran Le (Brandon)</p>
-          </Col>
-          <Col md={6}>
-            <div className="footer-social-icons">
+          <Col md={4}>
+          <h4>Contact Me</h4>
+          <div className="footer-social-icons">
               <a href="https://github.com/Brand0nLe" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
               <a href="https://www.linkedin.com/in/brandonctle/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
               <a href="mailto:brandonctle.dev@gmail.com"><FaEnvelope /></a>
             </div>
+            <p>CodeStack Academy Day Class '23</p>
+            <p>© 2023 Cuong Tran Le [Brandon]</p>
+          </Col>
+          <Col md={8}>
+          <p>Feel free to contact me for any questions, job inquiries, or just to say hi!</p>
             <div className="cta">
-              <h4>Contact Me</h4>
               <form className="footer-form" onSubmit={handleSubmit}>
                 <label htmlFor="name">Name:</label>
                 <input type="text" name="name" id="name" required />
@@ -42,7 +45,6 @@ const Footer = () => {
 
                 <button type="submit" disabled={state.submitting}>Send</button>
               </form>
-              <p>Feel free to contact me for any questions, job inquiries, or just to say hi!</p>
             </div>
           </Col>
         </Row>

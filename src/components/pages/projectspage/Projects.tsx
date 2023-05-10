@@ -30,12 +30,13 @@ const Projects = () => {
               <Card>
                 {/* <Card.Img variant="top" src={project1} /> */}
                 <Card.Body>
-                  <Card.Title>Project 1</Card.Title>
+                  <Card.Title>Advice Generator API</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut turpis eget nunc efficitur blandit.
-                    Duis quis faucibus nulla.
+                    Developed an advice generator web application using React and Bootstrap. The project involved calling an API and recreating a
+                    product design that was provided to us. The goal was to test our ability to accurately recreate the design and incorporate API data
+                    into the application.
                   </Card.Text>
-                  <Button variant="primary" href="#">
+                  <Button variant="primary" href="https://advicegenbrandon.azurewebsites.net">
                     Learn More
                   </Button>
                 </Card.Body>

@@ -1,12 +1,11 @@
 .footer-social-icons {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .footer-social-icons a {
   color: #333;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 
@@ -114,4 +113,8 @@ footer {
   .footer-form textarea {
     min-height: 80px;
   }
+}
+
+.footer-top-space{
+  margin-top: 40px;
 }
