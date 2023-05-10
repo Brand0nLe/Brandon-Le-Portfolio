@@ -10,14 +10,14 @@ img {
 
 .social-icons-container {
   overflow-x: auto;
-  max-width: -500px;
+  max-width: -400px;
   display: flex;
   justify-content: flex-end;
 }
 
 .social-icons {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .social-icons a {
