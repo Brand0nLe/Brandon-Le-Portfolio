@@ -1,13 +1,13 @@
 # My Portfolio
 
-This is a simple portfolio website built with React, Bootstrap, and Material UI. It includes sections for an "About Me" page and a few project pages, as well as a contact form that is connected to Formspree.
+This is a simple portfolio website built with React, Bootstrap, and Typescript. It includes sections for an "About Me" page and a few projects, as well as a contact form that is connected to Formspree.
 
 ## Features
 
 - Home page with information about myself and links to the other sections
 - About Me section with a brief bio and links to social media profiles (GitHub, Linkedin, and Email)
 - Projects section with links to individual project pages
-- Contact page with a form that allows visitors to send a message to the developer
+- Footer with a form that allows visitors to send a message to the developer
 - Responsive design that adapts to different screen sizes and devices
 
 ## Technologies Used
@@ -17,8 +17,8 @@ This is a simple portfolio website built with React, Bootstrap, and Material UI.
 - CSS
 - HTML
 - TypeScript
-- React-icons
-- Framer-motion
+- React-Icons
+- Framer-Motion
 
 ## Setup
 
