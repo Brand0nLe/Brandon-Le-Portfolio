@@ -54,10 +54,9 @@ const Projects = () => {
               <Card>
                 {/* <Card.Img variant="top" src={project2} /> */}
                 <Card.Body>
-                  <Card.Title>Project 2</Card.Title>
+                  <Card.Title>Pokemon API</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut turpis eget nunc efficitur blandit.
-                    Duis quis faucibus nulla.
+          Originally a javascript project, that I have re built in react.
                   </Card.Text>
                   <Button variant="primary" href="#">
                     Learn More
