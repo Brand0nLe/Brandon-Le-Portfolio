@@ -9,6 +9,8 @@ import { useState } from 'react';
 const Footer = () => {
   const [state, handleSubmit] = useForm('xyyaoolr');
   const [modalOpen, setModalOpen] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
 
   const handleOpenModal = () => {
     setModalOpen(true);

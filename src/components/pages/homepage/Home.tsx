@@ -75,13 +75,29 @@ const Home = () => {
               <Col md={8}>
                 <h1 className="name-style mb-0">Brandon Le</h1>
               </Col>
-
+              <p>
+              Hello! My name is Brandon and I'm a student at CodeStack Academy. I'm currently working towards graduating in September 2023. I have always been passionate about technology and coding, and I'm thrilled to be pursuing a career in the field.
+            </p>
+            <p>
+              Prior to my journey in coding, I worked as a pharmacy technician for over 7 years. While I enjoyed my time in the pharmaceutical industry, I decided to make a career transition when I encountered a great opportunity to pursue my passion for programming.
+            </p>
+            <p>
+              During my time at CodeStack Academy, I have gained valuable knowledge and hands-on experience in various technologies and programming languages such as JavaScript, React, CSS, and HTML, and I'm always eager to expand my skill set and stay up-to-date with the latest industry trends.
+            </p>
+            <p>
+              Aside from coding, I love cooking and exploring new recipes, especially when it comes to Vietnamese cuisine. It's a wonderful way for me to relax and recharge after spending hours immersed in coding projects.
+            </p>
+            <p>
+              My current goal is to continue developing my front-end skills and spend time programming passion projects in my free time.
+            </p>
+            <p>
+              Thank you for visiting my portfolio! If you have any questions, job inquiries, or simply want to say hello, please feel free to reach out to me through the contact information provided below. I look forward to connecting with you!
+            </p>
             </Row>
 
 
             <Row>
               <Col md={12}>
-              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ad dolor possimus accusamus, esse, eligendi ullam modi odit facilis vero quam ipsa! Laudantium unde praesentium corrupti tempore. Doloribus earum nisi, assumenda aut itaque dolore delectus quia reiciendis. Illum eaque blanditiis magni autem sit quod quos suscipit fugiat ut. Repudiandae totam molestias porro iste neque quisquam, cupiditate fugiat voluptatibus debitis maxime est exercitationem, dolore, aliquam quod? Repudiandae itaque ratione cum incidunt facere minus quod delectus aut, quae quam libero expedita, facilis labore consequatur dolores magnam? Repellat, quos autem ea eum magni quia unde esse tempora minus neque nihil quo ducimus expedita natus corrupti vero quibusdam, cumque necessitatibus alias totam pariatur quidem sit sequi dolorum. Nulla impedit sed magni ad repellendus cupiditate eos nisi ex aperiam sit consequuntur deserunt enim repudiandae eveniet laborum quos, eum velit possimus. Provident maiores nihil laborum recusandae quo! Cupiditate minus ratione quo. Distinctio fugiat, corporis aperiam quasi praesentium vitae illo consequatur error hic nemo laboriosam dolor, necessitatibus aliquam! Similique repellat blanditiis quod vitae nemo quis enim tempora, officia architecto quasi veritatis nisi hic pariatur esse? Quisquam autem doloribus fuga nam libero corporis laudantium explicabo quod? Accusamus voluptate ipsum perspiciatis sapiente minima ab reprehenderit nam culpa asperiores, incidunt, tempore corrupti vero natus molestiae dolore? Nisi veniam voluptatibus odit consequuntur porro cumque quo non nihil, distinctio minima fugiat! Ducimus dolorem libero tempore aut ut vitae at, delectus doloremque quo eius eligendi ea neque tempora minus quas beatae quam repudiandae optio similique ad amet voluptate vero repellat. Modi maiores ipsum cum explicabo, enim tempore laborum culpa iusto officia rem ad quam, obcaecati a corrupti exercitationem dolores dolorum quasi repellendus itaque saepe perspiciatis vero iste necessitatibus? Aperiam et officia consequatur iure blanditiis dolore numquam harum atque, sapiente dolorum, minus commodi laborum assumenda saepe error facilis molestias sit beatae laboriosam ad rerum illo. Odit hic laudantium delectus rem dicta, cupiditate libero, voluptas impedit unde, nam nisi? Veniam, maxime dolores. Deserunt, amet assumenda enim facere repudiandae labore nobis possimus consectetur nihil nemo totam explicabo, fuga doloremque, quidem quos corporis architecto quibusdam accusamus ipsam sequi ad. Ab dolorem minus quaerat quia reprehenderit saepe optio voluptatibus numquam libero similique. Similique blanditiis delectus beatae vero illo, earum eius omnis fugiat reprehenderit praesentium saepe quae sequi officiis veniam eos placeat aut eligendi? Libero rerum quod obcaecati culpa maiores harum deleniti fugiat in eaque accusantium voluptatibus voluptate repellat excepturi enim nisi quasi quos ad deserunt, similique a iste?</p>
 {/* Hello there, as you might have noticed, my name is Brandon and I am a student at CodeStack Academy with a planned graduation date of September 2023. I am a Vietnamese-American from Stockton, CA.
 </p>
 <p>

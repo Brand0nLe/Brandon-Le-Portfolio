@@ -186,6 +186,8 @@ const Skills = () => {
 
         </Row>
       </Container>
+
+      
     </div>
   );
 };
