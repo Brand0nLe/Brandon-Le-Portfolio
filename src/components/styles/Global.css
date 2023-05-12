@@ -6,15 +6,10 @@
   font-family: PoppinsExtraLight;
   src: url(../assets/fonts/Poppins-ExtraLight.ttf);
 }
-
-
 @font-face {
   font-family: PoppinsRegular;
   src: url(../assets/fonts/Poppins-Regular.ttf);
 }
-
-
-
 
 body {
   font-family: PoppinsRegular;

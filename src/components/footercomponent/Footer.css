@@ -13,9 +13,6 @@
   color: darkslategray;
 }
 
-
-
-
 footer {
   background-color: #f8f9fa;
   padding: 30px 0;
@@ -110,13 +107,8 @@ footer {
   color: #999;
 }
 
-
-
-
-
 /* Responsiveness */
 @media (max-width: 768px) {
-
   .footer-form input,
   .footer-form textarea {
     width: 100%;
