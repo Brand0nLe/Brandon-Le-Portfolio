@@ -56,7 +56,7 @@ const Projects = () => {
                 <Card.Body>
                   <Card.Title>Pokemon API</Card.Title>
                   <Card.Text>
-          Originally a javascript project, that I have re built in react.
+                    Originally a javascript project, that I have re built in react.
                   </Card.Text>
                   <Button variant="primary" href="#">
                     Learn More
