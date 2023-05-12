@@ -54,11 +54,10 @@ const Projects = () => {
               <Card>
                 {/* <Card.Img variant="top" src={project2} /> */}
                 <Card.Body>
-                  <Card.Title>Pokemon API</Card.Title>
+                  <Card.Title>Pokemon Catcher</Card.Title>
                   <Card.Text>
-                    Originally a javascript project, that I have re built in react.
-                  </Card.Text>
-                  <Button variant="primary" href="#">
+This was originally built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from the PokeAPI (https://pokeapi.co)                   </Card.Text>
+                  <Button variant="primary" href="https://whoisthatpokemon.azurewebsites.net/">
                     Learn More
                   </Button>
                 </Card.Body>
@@ -73,8 +72,8 @@ const Projects = () => {
               animate={isVisible ? 'visible' : ''}
               transition={{ delay: 0.6 }}
             >
-              <Card>
-                {/* <Card.Img variant="top" src={project3} /> */}
+              {/* <Card>
+                <Card.Img variant="top" src={project3} />
                 <Card.Body>
                   <Card.Title>Project 3</Card.Title>
                   <Card.Text>
@@ -85,7 +84,7 @@ const Projects = () => {
                     Learn More
                   </Button>
                 </Card.Body>
-              </Card>
+              </Card> */}
             </motion.div>
           </Col>
         </Row>

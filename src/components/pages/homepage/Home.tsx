@@ -75,48 +75,7 @@ const Home = () => {
               <Col md={8}>
                 <h1 className="name-style mb-0">Brandon Le</h1>
               </Col>
-              <Col md={4}>
-                <motion.div className="social-icons ml-auto" variants={socialIconsVariants} initial="initial" animate="animate">
-                  {/* <motion.a
-                    href="https://github.com/Brand0nLe"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    variants={iconVariants}
-                    whileHover="hover"
-                    whileTap="tap"
-                  >
-                    <FaGithub />
-                  </motion.a>
-                  <motion.a
-                    href="https://www.linkedin.com/in/brandonctle/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    variants={iconVariants}
-                    whileHover="hover"
-                    whileTap="tap"
-                  >
-                    <FaLinkedin />
-                  </motion.a>
-                  <motion.a
-                    href="mailto:brandonctle.dev@gmail.com"
-                    variants={iconVariants}
-                    whileHover="hover"
-                    whileTap="tap"
-                  >
-                    <FaEnvelope />
-                  </motion.a> */}
-                  <motion.a
-                    href="#"
-                    className=""
-                    onClick={handleOpenModal}
-                    variants={iconVariants}
-                    whileHover="hover"
-                    whileTap="tap"
-                  >
-                    <FaFilePdf />
-                  </motion.a>
-                </motion.div> 
-              </Col>
+
             </Row>
 
 
