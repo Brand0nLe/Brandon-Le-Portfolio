@@ -92,7 +92,7 @@ const Footer = () => {
                 </div>
 
                 <div className="form-group">
-                  <input type="email" name="email" id="email" required />
+                  <input type="email" name="_replyto" id="email" required />
                   <label htmlFor="email" className="form-label">Email:</label>
                 </div>
 
@@ -105,16 +105,16 @@ const Footer = () => {
                   prefix="Message"
                   field="message"
                   errors={state.errors}
-                  />
-  <button type="submit" disabled={state.submitting}>Send</button>
-          </form>
-        </div>
-      </Col>
-    </Row>
-  </Container>
-  {modalOpen && <ResumeModal closeModal={handleCloseModal} />}
-</footer>
-);
+                />
+                <button type="submit" disabled={state.submitting}>Send</button>
+              </form>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      {modalOpen && <ResumeModal closeModal={handleCloseModal} />}
+    </footer>
+  );
 };
 
 export default Footer;
