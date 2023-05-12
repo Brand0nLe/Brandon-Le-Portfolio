@@ -56,7 +56,7 @@ const Projects = () => {
                 <Card.Body>
                   <Card.Title>Pokemon Catcher</Card.Title>
                   <Card.Text>
-This was originally built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from the PokeAPI (https://pokeapi.co)                   </Card.Text>
+                    This was originally built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from the PokeAPI (https://pokeapi.co)                   </Card.Text>
                   <Button variant="primary" href="https://whoisthatpokemon.azurewebsites.net/">
                     Learn More
                   </Button>

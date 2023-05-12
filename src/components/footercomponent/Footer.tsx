@@ -18,9 +18,9 @@ const Footer = () => {
     setModalOpen(false);
   };
 
-  if (state.succeeded) {
-    alert("Thank you for reaching out to me! I'll get back to you as soon as I can!");
-  }
+  // if (state.succeeded) {
+  //   alert("Thank you for reaching out to me! I'll get back to you as soon as I can!");
+  // }
 
   const iconVariants = {
     hover: {
