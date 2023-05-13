@@ -61,7 +61,7 @@ const Home = () => {
                 Prior to my journey in coding, I worked as a pharmacy technician for over 7 years. While I enjoyed my time in the pharmaceutical industry, I decided to make a career transition when I encountered a great opportunity to pursue my passion for programming.
               </p>
               <p>
-                Aside from coding, I love cooking and exploring new recipes, especially when it comes to Vietnamese cuisine. It's a wonderful way for me to relax and recharge after spending hours immersed in coding projects.
+                Aside from coding, I love cooking and exploring new recipes, especially when it comes to Vietnamese cuisine. It helps me relax and recharge after spending hours immersed in coding projects.
               </p>
               <p>
                 My current goal is to continue developing my front-end skills and spend time programming my current passion project, Pill Pal. If you're interested please visit my projects to learn more about it, or feel free to reach out to me through the contact information provided below. I look forward to connecting with you and thanks for visiting my portfolio!
