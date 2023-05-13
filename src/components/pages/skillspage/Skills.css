@@ -51,41 +51,25 @@
 }
 
 @media (max-width: 767px) {
-
-  #skills table th,
-  #skills table td {
-    font-size: 1rem;
-    padding: 0.5rem;
-    border: none;
+  #skills table, #skills table tbody, #skills table tr, #skills table td {
+    display: block;
     width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  #skills table td {
+    border-top: none;
+    padding: 0.5rem 0;
   }
 
-  #skills table th {
-    display: none;
+  #skills table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 
-  #skills table tr:nth-child(even) {
-    background-color: transparent;
-  }
-
-  #skills table tr:hover {
-    background-color: transparent;
-  }
-
-  #skills table tr td span {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    border: 2px solid #ddd;
-    border-radius: 0.5rem;
-    padding: 1rem;
-  }
-
-  #skills table tr td span:last-child {
-    margin-bottom: 0;
-  }
-
-  #skills h2 {
-    margin-top: 3rem;
-    text-align: center;
+  #skills table td:last-child {
+    border-bottom: 2px solid #ddd;
   }
 }

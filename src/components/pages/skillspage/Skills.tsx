@@ -29,15 +29,17 @@ const Skills = () => {
       transition: {
         duration: 0.5,
         repeat: Infinity,
-        repeatType: "reverse"
+        repeatType: 'reverse'
       }
     }
   };
 
   return (
-    <div id="skills">
+    <div id="skills" className="skills-container">
       <Container>
-        <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>Skills</motion.h2>
+        <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>
+          Skills
+        </motion.h2>
         <Row>
           <Col md={12}>
             <motion.table className="skill-table">
@@ -111,85 +113,84 @@ const Skills = () => {
                     <motion.span variants={skillListVariants} whileHover="hover">
                       <MdExtension />
                       Material UI
-                    </motion.span>
-                  </td>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <FaSlack />
-                      Slack
-                    </motion.span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <SiReactrouter />
-                      React Router
-                    </motion.span>
-                  </td>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <SiReact />
-                      React Native
-                    </motion.span>
-                  </td>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <FaDatabase />
-                      Azure SQL databases
-                    </motion.span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <SiMicrosoftazure />
-                      Microsoft Azure
-                    </motion.span>
-                  </td>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <SiTailwindcss />
-                      Tailwind
-                    </motion.span>
-                  </td>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <SiTypescript />
-                      TypeScript
-                    </motion.span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <IoLogoAngular />
-                      Angular
-                    </motion.span>
-                  </td>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <SiPostman />
-                      Postman
-                    </motion.span>
-                  </td>
-                  <td>
-                    <motion.span variants={skillListVariants} whileHover="hover">
-                      <IoIosFastforward />
-                      Framer-Motion
-                    </motion.span>
-                  </td>
-                </tr>
-              </tbody>
-            </motion.table>
-          </Col>
+                      </motion.span>
+                </td>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <FaSlack />
+                    Slack
+                  </motion.span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <SiReactrouter />
+                    React Router
+                  </motion.span>
+                </td>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <SiReact />
+                    React Native
+                  </motion.span>
+                </td>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <FaDatabase />
+                    Azure SQL databases
+                  </motion.span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <SiMicrosoftazure />
+                    Microsoft Azure
+                  </motion.span>
+                </td>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <SiTailwindcss />
+                    Tailwind
+                  </motion.span>
+                </td>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <SiTypescript />
+                    TypeScript
+                  </motion.span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <IoLogoAngular />
+                    Angular
+                  </motion.span>
+                </td>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <SiPostman />
+                    Postman
+                  </motion.span>
+                </td>
+                <td>
+                  <motion.span variants={skillListVariants} whileHover="hover">
+                    <IoIosFastforward />
+                    Framer-Motion
+                  </motion.span>
+                </td>
+              </tr>
+            </tbody>
+          </motion.table>
 
-        </Row>
-      </Container>
 
-      
-    </div>
-  );
+        </Col>
+      </Row>
+    </Container>
+  </div>
+);
 };
 
 export default Skills;
