@@ -38,8 +38,7 @@ const Projects = () => {
                 <Card.Body>
                   <Card.Title>Pill Pal: In Development</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut turpis eget nunc efficitur blandit.
-                    Duis quis faucibus nulla.
+This is a full stack app built using React.js, Typescript, Bootstrap, and Material UI. The purpose of the app is to provide users with a place to store medical information. Medication history, insurance information, allergies, doctor's contacts, pharmacy contacts etc. I'm collaborating with 2 classmates, but this project is not yet complete.
                   </Card.Text>
                   <Button variant="primary" href="#">
                     Learn More
@@ -62,7 +61,7 @@ const Projects = () => {
                 <Card.Body>
                   <Card.Title>Pokemon Catcher</Card.Title>
                   <Card.Text>
-                    This was originally built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from the PokeAPI (https://pokeapi.co)                   </Card.Text>
+                    This was originally a project built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from https://pokeapi.co to allow the user to search for a pokemon and display their name, type, abilities, and moves. There's also an option to choose a random pokemon, and for the pokemon to be "caught" and added to a list of favorites.                  </Card.Text>
                   <Button href="https://whoisthatpokemon.azurewebsites.net/">
                     Catch Some Pokemon!
                   </Button>
