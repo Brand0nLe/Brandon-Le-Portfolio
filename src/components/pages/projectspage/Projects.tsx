@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <Container>
-        <h2>Projects</h2>
+      <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>Projects</motion.h2>
         <Row>
           <Col md={4}>
             <motion.div
@@ -30,16 +30,17 @@ const Projects = () => {
               animate={isVisible ? 'visible' : ''}
             >
               <Card>
-                <Card.Img variant="top" src={project1} />
-                <Card.Body>
+              <a href="https://advicegenbrandon.azurewebsites.net" target="_blank" rel="noopener noreferrer">
+    <Card.Img variant="top" src={project1} /></a>
+                    <Card.Body>
                   <Card.Title>Advice Generator API</Card.Title>
                   <Card.Text>
                     Developed an advice generator web application using React and Bootstrap. The project involved calling an API and recreating a
                     product design that was provided to us. The goal was to test our ability to accurately recreate the design and incorporate API data
                     into the application.
                   </Card.Text>
-                  <Button variant="primary" href="https://advicegenbrandon.azurewebsites.net">
-                    Learn More
+                  <Button href="https://advicegenbrandon.azurewebsites.net">
+                    Get Advice
                   </Button>
                 </Card.Body>
               </Card>
@@ -59,8 +60,8 @@ const Projects = () => {
                   <Card.Title>Pokemon Catcher</Card.Title>
                   <Card.Text>
                     This was originally built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from the PokeAPI (https://pokeapi.co)                   </Card.Text>
-                  <Button variant="primary" href="https://whoisthatpokemon.azurewebsites.net/">
-                    Learn More
+                  <Button href="https://whoisthatpokemon.azurewebsites.net/">
+                    Catch Some Pokemon!
                   </Button>
                 </Card.Body>
               </Card>
