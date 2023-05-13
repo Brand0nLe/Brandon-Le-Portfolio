@@ -20,6 +20,7 @@ This is a simple portfolio website built with React, Bootstrap, and Typescript. 
 - TypeScript
 - React-Icons
 - Framer-Motion
+- React-Router
 
 ## Setup
 
