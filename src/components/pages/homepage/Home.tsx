@@ -1,5 +1,4 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import ProfilePicture from '../../assets/images/profilepicture.jpg';
@@ -30,30 +29,7 @@ const Home = () => {
     }
   };
 
-  const socialIconsVariants = {
-    initial: {
-      scale: 1,
-      opacity: 0,
-      y: 0
-    },
-    animate: {
-      scale: 2,
-      opacity: 1,
-      y: 0,
-      transition: { delay: 1, duration: 2 }
-    }
-  };
 
-  const iconVariants = {
-    hover: {
-      scale: 2,
-      transition: { duration: 0.3 }
-    },
-    tap: {
-      scale: 0.8,
-      transition: { duration: 0.3 }
-    }
-  };
 
   return (
     <div id="home">

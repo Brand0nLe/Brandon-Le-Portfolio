@@ -40,6 +40,7 @@ const Footer = () => {
         <Row>
           <Col md={4}>
             <h4>Contact Me</h4>
+            <p>209-244-2325</p>
             <div className="footer-social-icons">
               <motion.a
                 href="https://github.com/Brand0nLe"
@@ -79,7 +80,6 @@ const Footer = () => {
                 <FaFilePdf />
               </motion.a>
             </div>
-            <p>209-244-2325</p>
             <p>© 2023 Cuong Tran Le [Brandon]</p>
             <p>CodeStack Academy Day Class '23</p>
           </Col>
