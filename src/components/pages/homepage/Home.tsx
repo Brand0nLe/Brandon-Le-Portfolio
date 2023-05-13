@@ -49,7 +49,7 @@ const Home = () => {
           <Col md={6}>
             <Row className="align-items-center">
               <Col md={8}>
-                <h1 className="name-style mb-0">Brandon Le</h1>
+                <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }} className="name-style">Brandon Le</motion.h2>
               </Col>
               <p>
                 Hello! My name is Brandon and I'm a student at CodeStack Academy. I'm currently working towards graduating in September 2023. I have always been passionate about technology and coding, and I'm thrilled to be pursuing a career in the field.

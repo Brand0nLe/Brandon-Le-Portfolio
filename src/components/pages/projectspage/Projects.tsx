@@ -22,7 +22,7 @@ const Projects = () => {
       <Container>
       <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>Projects</motion.h2>
         <Row>
-          <Col md={4}>
+          <Col lg={4}>
             <motion.div
               className="card-wrapper"
               variants={projectVariants}
@@ -46,7 +46,7 @@ const Projects = () => {
               </Card>
             </motion.div>
           </Col>
-          <Col md={4}>
+          <Col lg={4}>
             <motion.div
               className="card-wrapper"
               variants={projectVariants}
@@ -55,8 +55,9 @@ const Projects = () => {
               transition={{ delay: 0.3 }}
             >
               <Card>
-                <Card.Img variant="top" src={project2} />
-                <Card.Body>
+              <a href="https://whoisthatpokemon.azurewebsites.net" target="_blank" rel="noopener noreferrer">
+    <Card.Img variant="top" src={project2} /></a>       
+             <Card.Body>
                   <Card.Title>Pokemon Catcher</Card.Title>
                   <Card.Text>
                     This was originally built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from the PokeAPI (https://pokeapi.co)                   </Card.Text>
@@ -67,7 +68,7 @@ const Projects = () => {
               </Card>
             </motion.div>
           </Col>
-          <Col md={4}>
+          <Col lg={4}>
             <motion.div
               className="card-wrapper"
               variants={projectVariants}

@@ -36,3 +36,20 @@ img {
   font-size: 4rem;
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .name-style{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .name-style{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .name-style{
+    font-size: 2rem;
+  }
+}
