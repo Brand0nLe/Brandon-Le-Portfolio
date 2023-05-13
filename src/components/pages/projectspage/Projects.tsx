@@ -2,6 +2,8 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import '../projectspage/Projects.css';
+import project1 from '../../assets/images/advicegenerator.png';
+import project2 from '../../assets/images/pokemoncatcher.png';
 
 const projectVariants = {
   hidden: { opacity: 0 },
@@ -28,7 +30,7 @@ const Projects = () => {
               animate={isVisible ? 'visible' : ''}
             >
               <Card>
-                {/* <Card.Img variant="top" src={project1} /> */}
+                <Card.Img variant="top" src={project1} />
                 <Card.Body>
                   <Card.Title>Advice Generator API</Card.Title>
                   <Card.Text>
@@ -52,7 +54,7 @@ const Projects = () => {
               transition={{ delay: 0.3 }}
             >
               <Card>
-                {/* <Card.Img variant="top" src={project2} /> */}
+                <Card.Img variant="top" src={project2} />
                 <Card.Body>
                   <Card.Title>Pokemon Catcher</Card.Title>
                   <Card.Text>
