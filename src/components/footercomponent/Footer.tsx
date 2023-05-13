@@ -79,8 +79,9 @@ const Footer = () => {
                 <FaFilePdf />
               </motion.a>
             </div>
-            <p>CodeStack Academy Day Class '23</p>
+            <p>209-244-2325</p>
             <p>© 2023 Cuong Tran Le [Brandon]</p>
+            <p>CodeStack Academy Day Class '23</p>
           </Col>
           <Col md={8}>
             <p>Feel free to contact me for any questions, job inquiries, or just to say hi!</p>

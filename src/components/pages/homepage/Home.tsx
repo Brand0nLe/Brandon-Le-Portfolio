@@ -98,20 +98,7 @@ const Home = () => {
 
             <Row>
               <Col md={12}>
-{/* Hello there, as you might have noticed, my name is Brandon and I am a student at CodeStack Academy with a planned graduation date of September 2023. I am a Vietnamese-American from Stockton, CA.
-</p>
-<p>
-I have experience in [insert industry or company] and have held roles such as [insert role or job title]. Some notable accomplishments in my career include [insert specific accomplishments].
-</p>
-<p>
-Outside of my professional life, I am known for my [insert personal qualities]. I enjoy practicing cooking and learning new recipes, particularly Vietnamese dishes. It's a fun and relaxing break from coding all day.
-</p>
-<p>
-My current goals are to further develop my front-end skills, focusing on React, Javascript, CSS, and HTML while continuing to develop my Medication Adherence application. In the next year, I hope to have a fully functioning application available as a mobile app and desktop website.
-</p>
-<p>
-Thank you for visiting my portfolio, and please feel free to reach out to me at [insert email] or through my [insert social media link(s)].
-</p>  */}
+
               </Col>
             </Row>
 
