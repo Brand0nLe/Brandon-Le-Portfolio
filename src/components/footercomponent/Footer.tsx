@@ -80,7 +80,7 @@ const Footer = () => {
                 <FaFilePdf />
               </motion.a>
             </div>
-            <p>© 2023 Cuong Tran Le [Brandon]</p>
+            <p>© 2023 [Brandon] Cuong Tran Le</p>
             <p>CodeStack Academy Day Class '23</p>
           </Col>
           <Col md={8}>
