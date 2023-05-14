@@ -15,22 +15,6 @@ img {
   justify-content: flex-end;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.social-icons a {
-  color: #333;
-  margin-right: 5;
-  margin-left: 5;
-}
-
-.social-icons a:hover {
-  color: #fff;
-  cursor: pointer;
-}
-
 .name-style{
   font-family: PoppinsExtraLight;
   font-size: 4rem;
