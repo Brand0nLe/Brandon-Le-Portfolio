@@ -82,6 +82,8 @@ const Footer = () => {
             </div>
             <p>© 2023 [Brandon] Cuong Tran Le</p>
             <p>CodeStack Academy Day Class '23</p>
+            <p>Profile picture credit: Redhatfter</p>
+
           </Col>
           <Col md={8}>
             <p>Feel free to contact me for any questions, job inquiries, or just to say hi!</p>
