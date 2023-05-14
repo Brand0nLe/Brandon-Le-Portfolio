@@ -20,13 +20,13 @@ const Projects = () => {
   }, []);
 
   useEffect(() => {
-    sessionStorage.setItem('projectsVisible', isVisible.toString());
+    sessionStorage.setItem('projectsVisible', JSON.stringify(isVisible));
   }, [isVisible]);
 
   useEffect(() => {
     const storedVisible = sessionStorage.getItem('projectsVisible');
     if (storedVisible !== null) {
-      setIsVisible(storedVisible === 'true');
+      setIsVisible(JSON.parse(storedVisible));
     }
   }, []);
 
