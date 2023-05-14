@@ -1,8 +1,34 @@
-#skills h2 {
+#skills .skills-style {
+  margin-top: 20px;
   margin-bottom: 3rem;
   text-align: center;
   color: #fff;
 }
+
+.skills-style{
+  font-family: PoppinsExtraLight;
+  font-size: 4rem;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .skills-style{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .skills-style{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .skills-style{
+    font-size: 2rem;
+  }
+}
+
+
 
 #skills table {
   width: 100%;

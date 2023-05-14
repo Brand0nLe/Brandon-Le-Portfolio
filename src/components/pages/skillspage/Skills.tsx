@@ -37,7 +37,7 @@ const Skills = () => {
   return (
     <div id="skills" className="skills-container">
       <Container>
-        <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>
+        <motion.h2 className='skills-style' animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>
           Skills
         </motion.h2>
         <Row>

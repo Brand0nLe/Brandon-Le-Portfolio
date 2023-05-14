@@ -5,6 +5,7 @@ img {
 
 #home {
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 
@@ -19,6 +20,7 @@ img {
   font-family: PoppinsExtraLight;
   font-size: 4rem;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1024px) {
