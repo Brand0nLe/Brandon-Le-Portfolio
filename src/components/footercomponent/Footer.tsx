@@ -88,17 +88,17 @@ const Footer = () => {
             <div className="cta">
               <form className="footer-form" onSubmit={handleSubmit}>
                 <div className="form-group">
-                <label htmlFor="name" className="form-label">Name:</label>
+                  <label htmlFor="name" className="form-label">Name:</label>
                   <input type="text" name="name" id="name" required />
                 </div>
 
                 <div className="form-group">
-                <label htmlFor="email" className="form-label">Email:</label>
+                  <label htmlFor="email" className="form-label">Email:</label>
                   <input type="email" name="_replyto" id="email" required />
                 </div>
 
                 <div className="form-group">
-                <label htmlFor="message" className="form-label">Message:</label>
+                  <label htmlFor="message" className="form-label">Message:</label>
                   <textarea name="message" id="message" rows={5} required></textarea>
                 </div>
 
