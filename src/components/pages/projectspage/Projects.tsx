@@ -80,13 +80,13 @@ const Projects = () => {
               animate={isVisible ? 'visible' : ''}
             >
               <Card>
-                <a href="https://advicegenbrandon.azurewebsites.net" target="_blank" rel="noopener noreferrer">
+                <a href="https://githubexplorer.azurewebsites.net/" target="_blank" rel="noopener noreferrer">
                   <Card.Img variant="top" src={project4} /></a>
                 <Card.Body>
                   <Card.Title>GitHub Repository Explorer</Card.Title>
                   <Card.Text>
                     A simple Github Repository searching application built with React, Bootstrap, and TypeScript. It allows users to search for repositories based on a specific GitHub user's profile. The application utilizes the GitHub REST API to fetch repository data and display details such as repository name, description, stars, and forks. It also displays the users info if it was provided.                 </Card.Text>
-                  <Button href="https://advicegenbrandon.azurewebsites.net">
+                  <Button href="https://githubexplorer.azurewebsites.net/">
                     Explore GitHub                  </Button>
                 </Card.Body>
               </Card>
