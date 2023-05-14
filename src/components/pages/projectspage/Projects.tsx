@@ -7,7 +7,6 @@ import project2 from '../../assets/images/pokemoncatcher.png';
 import project3 from '../../assets/images/advicegenerator.png';
 import project4 from '../../assets/images/githubexplorer.png';
 
-
 const projectVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 1 } },
@@ -18,6 +17,17 @@ const Projects = () => {
 
   useEffect(() => {
     setIsVisible(true);
+  }, []);
+
+  useEffect(() => {
+    sessionStorage.setItem('projectsVisible', isVisible.toString());
+  }, [isVisible]);
+
+  useEffect(() => {
+    const storedVisible = sessionStorage.getItem('projectsVisible');
+    if (storedVisible !== null) {
+      setIsVisible(storedVisible === 'true');
+    }
   }, []);
 
   return (
