@@ -1,25 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/styles/Global.css';
 
-if (process.env.NODE_ENV === 'production') {
-  // Serve static files
-  const manifest: { [key: string]: string } = require('./manifest.json');
-  const assets: string[] = Object.values(manifest).map((asset: string) => `/${asset}`);
-
-  assets.forEach((asset: string) => {
-    const link = document.createElement('link');
-    link.href = asset;
-    link.rel = 'preload';
-    link.as = 'fetch';
-    document.head.appendChild(link);
-  });
-}
-
-const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -29,4 +15,7 @@ root.render(
   </React.StrictMode>
 );
 
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
