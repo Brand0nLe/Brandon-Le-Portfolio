@@ -1,6 +1,7 @@
 # My Portfolio
 
 This is a simple portfolio website built with React, Bootstrap, and Typescript. It includes sections for an "About Me" page and a few projects, as well as a contact form that is connected to Formspree.
+**Check out the deployed application [here](https://brandonle.azurewebsites.net/).**
 
 ## Features
 
