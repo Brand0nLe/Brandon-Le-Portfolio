@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <Container>
-        <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>Projects</motion.h2>
+        <motion.h2 className='projects-style' animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }}>Projects</motion.h2>
         <Row>
           <Col lg={4}>
             <motion.div

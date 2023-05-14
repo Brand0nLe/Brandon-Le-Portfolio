@@ -1,7 +1,31 @@
-#projects h2 {
+#projects .projects-style {
+  margin-top: 40px;
   margin-bottom: 3rem;
   text-align: center;
   color: #fff;
+}
+
+.projects-style{
+  font-family: PoppinsExtraLight;
+  font-size: 4rem;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .projects-style{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .projects-style{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .projects-style{
+    font-size: 2rem;
+  }
 }
 
 .card-wrapper {
