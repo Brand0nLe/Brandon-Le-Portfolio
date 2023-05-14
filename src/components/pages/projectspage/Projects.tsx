@@ -7,6 +7,7 @@ import project2 from '../../assets/images/pokemoncatcher.png';
 import project3 from '../../assets/images/advicegenerator.png';
 import project4 from '../../assets/images/githubexplorer.png';
 
+
 const projectVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { duration: 1 } },
@@ -16,13 +17,8 @@ const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const storedVisible = sessionStorage.getItem('projectsVisible');
-    setIsVisible(storedVisible === 'true');
+    setIsVisible(true);
   }, []);
-
-  useEffect(() => {
-    sessionStorage.setItem('projectsVisible', isVisible.toString());
-  }, [isVisible]);
 
   return (
     <div id="projects">
@@ -39,12 +35,11 @@ const Projects = () => {
             >
               <Card>
                 <a href="https://pillpalapp.azurewebsites.net" target="_blank" rel="noopener noreferrer">
-                  <Card.Img variant="top" src={project1} />
-                </a>
+                  <Card.Img variant="top" src={project1} /></a>
                 <Card.Body>
                   <Card.Title>Pill Pal: In Development</Card.Title>
                   <Card.Text>
-                    This is a full stack app built using React.js, Typescript, Bootstrap, and Material UI. The purpose of the app is to provide users with a place to store medical information. Medication history, insurance information, allergies, doctor's contacts, pharmacy contacts, etc. I'm collaborating with 2 classmates, but this project is not yet complete.
+                    This is a full stack app built using React.js, Typescript, Bootstrap, and Material UI. The purpose of the app is to provide users with a place to store medical information. Medication history, insurance information, allergies, doctor's contacts, pharmacy contacts etc. I'm collaborating with 2 classmates, but this project is not yet complete.
                   </Card.Text>
                   <Button variant="primary" href="#">
                     Learn More
@@ -63,13 +58,11 @@ const Projects = () => {
             >
               <Card>
                 <a href="https://whoisthatpokemon.azurewebsites.net" target="_blank" rel="noopener noreferrer">
-                  <Card.Img variant="top" src={project2} />
-                </a>
+                  <Card.Img variant="top" src={project2} /></a>
                 <Card.Body>
                   <Card.Title>Pokemon Catcher</Card.Title>
                   <Card.Text>
-                    Originally a project built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from https://pokeapi.co to allow the user to search for a Pokemon and display their name, type, abilities, and moves. There's also an option to choose a random Pokemon and for the Pokemon to be "caught" and added to a list of favorites.
-                  </Card.Text>
+                    Originally a project built in Javascript, and I recreated it using React.js, Typescript, and Bootstrap. It uses data that's been fetched from https://pokeapi.co to allow the user to search for a pokemon and display their name, type, abilities, and moves. There's also an option to choose a random pokemon, and for the pokemon to be "caught" and added to a list of favorites.                  </Card.Text>
                   <Button href="https://whoisthatpokemon.azurewebsites.net/">
                     Catch Some Pokemon!
                   </Button>
