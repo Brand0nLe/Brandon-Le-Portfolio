@@ -2,13 +2,8 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/BLLOGO.png';
 import '../navbarcomponent/Header.css';
-import React, { useState, Dispatch, SetStateAction } from 'react';
 
-type HeaderProps = {
-  isLoggedIn: boolean;
-  setIsLoggedIn: Dispatch<SetStateAction<boolean>>;
-};
-const Header: React.FC<HeaderProps> = ({ isLoggedIn, setIsLoggedIn }) => {
+const Header = () => {
   return (
     <Navbar bg="light" expand="lg">
       <div className="logo">
@@ -29,4 +24,3 @@ const Header: React.FC<HeaderProps> = ({ isLoggedIn, setIsLoggedIn }) => {
 };
 
 export default Header;
-
