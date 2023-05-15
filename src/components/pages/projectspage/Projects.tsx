@@ -165,17 +165,15 @@ const Projects = () => {
               animate={isVisible ? 'visible' : ''}
             >
               <Card>
-                <a href="https://advicegenbrandon.azurewebsites.net" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Brand0nLe/weatherapptypescript" target="_blank" rel="noopener noreferrer">
                   <Card.Img variant="top" src={project6} /></a>
                 <Card.Body>
-                  <Card.Title>3rd card</Card.Title>
+                  <Card.Title>Weather App TS: In RE-Development</Card.Title>
                   <Card.Text>
-                    Developed an advice generator web application using React and Bootstrap. The project involved calling an API and recreating a
-                    product design that was provided to us. The goal was to test our ability to accurately recreate the design and incorporate API data
-                    into the application.
+      My reason for revisiting this project is to enhance an old project that I didn't do well on before. I'm challenging myself by adding Typescript, and planned features in the future as well. I've started the basic set up and I've already been able to do something I wasn't able to do in the past, get local storage to work for a favorites list when it's routed on a different page. If you're interested give it a star on GitHub!
                   </Card.Text>
-                  <Button href="https://advicegenbrandon.azurewebsites.net">
-                    Get Advice
+                  <Button href="https://github.com/Brand0nLe/weatherapptypescript">
+                    GitHub Repo
                   </Button>
                 </Card.Body>
               </Card>
