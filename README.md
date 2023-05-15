@@ -9,7 +9,7 @@ This is a simple portfolio website built with React, Bootstrap, and Typescript. 
 - Home page with information about myself and links to the other sections
 - About Me section with a brief bio and profile picture
 - Ability to view and download PDF when clicking on profile image and pdf icon
-- Skills Page 
+- Skills Page shown with react-icons and table format
 - Projects section with links to individual project pages, image preview, and a description
 - Footer with a form that allows visitors to send a message to the developer icons linked to social media profiles (GitHub, Linkedin, and Email)
 - Footer also has an icon linked for PDF download
