@@ -6,6 +6,9 @@ import project1 from '../../assets/images/pillpalapp.png';
 import project2 from '../../assets/images/pokemoncatcher.png';
 import project3 from '../../assets/images/advicegenerator.png';
 import project4 from '../../assets/images/githubexplorer.png';
+import project5 from '../../assets/images/githublogo.jpeg';
+import project6 from '../../assets/images/githublogo.jpeg';
+
 
 const projectVariants = {
   hidden: { opacity: 0 },
@@ -129,53 +132,55 @@ const Projects = () => {
 
 
 
-
-          {/* <Col md={4}>
+          <Col lg={4}>
             <motion.div
               className="card-wrapper"
               variants={projectVariants}
               initial="hidden"
               animate={isVisible ? 'visible' : ''}
-              transition={{ delay: 1.2 }}
             >
               <Card>
-                <Card.Img variant="top" src={project4} />
+                <a href="https://github.com/Brand0nLe/foodfinder" target="_blank" rel="noopener noreferrer">
+                  <Card.Img variant="top" src={project5} /></a>
                 <Card.Body>
-                  <Card.Title>Project 5</Card.Title>
+                  <Card.Title>Delicious Discoveries: In Development</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam ut turpis eget nunc efficitur blandit. Duis quis faucibus nulla.
+                    Inspired by my love for food, I found the free to use Yelp Fusion API. But due to the strict guidelines for their display requirements, I will be slowly taking my time to develop this properly. I want to make sure I don't make any mistakes and abide by their terms of service. If you're interested in seeing my journey developing this app, give it a star on GitHub or reach out to me via any of my listed methods of contact.
                   </Card.Text>
-                  <Button variant="primary" href="#">
-                    Learn More
+                  <Button href="https://github.com/Brand0nLe/foodfinder">
+                    GitHub Repo
                   </Button>
                 </Card.Body>
               </Card>
             </motion.div>
           </Col>
-          <Col md={4}>
+
+
+
+          <Col lg={4}>
             <motion.div
               className="card-wrapper"
               variants={projectVariants}
               initial="hidden"
               animate={isVisible ? 'visible' : ''}
-              transition={{ delay: 1.5 }}
             >
               <Card>
-                <Card.Img variant="top" src={project6} />
+                <a href="https://advicegenbrandon.azurewebsites.net" target="_blank" rel="noopener noreferrer">
+                  <Card.Img variant="top" src={project6} /></a>
                 <Card.Body>
-                  <Card.Title>Project 6</Card.Title>
+                  <Card.Title>3rd card</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam ut turpis eget nunc efficitur blandit. Duis quis faucibus nulla.
+                    Developed an advice generator web application using React and Bootstrap. The project involved calling an API and recreating a
+                    product design that was provided to us. The goal was to test our ability to accurately recreate the design and incorporate API data
+                    into the application.
                   </Card.Text>
-                  <Button variant="primary" href="#">
-                    Learn More
+                  <Button href="https://advicegenbrandon.azurewebsites.net">
+                    Get Advice
                   </Button>
                 </Card.Body>
               </Card>
             </motion.div>
-          </Col> */}
+          </Col>
         </Row>
 
 
