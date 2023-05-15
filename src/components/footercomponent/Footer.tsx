@@ -2,12 +2,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import '../footercomponent/Footer.css';
-import { useForm, ValidationError } from '@formspree/react';
+import { ValidationError, useForm } from '@formspree/react';
 import ResumeModal from '../resumemodalcomponent/Resume';
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
 
 const Footer = () => {
-  const [state, handleSubmit] = useForm('xyyaoolr');
   const [modalOpen, setModalOpen] = useState(false);
 
   const handleOpenModal = () => {
@@ -18,9 +17,18 @@ const Footer = () => {
     setModalOpen(false);
   };
 
-  // if (state.succeeded) {
-  //   alert("Thank you for reaching out to me! I'll get back to you as soon as I can!");
-  // }
+  const [state, handleSubmit] = useForm('xyyaoolr');
+
+  const handleFormSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const { data, error } = await handleSubmit(e);
+
+    if (error) {
+      console.error(error);
+    } else {
+      alert("Thank you for reaching out to me! I'll get back to you as soon as I can!");
+    }
+  };
 
   const iconVariants = {
     hover: {
@@ -88,7 +96,7 @@ const Footer = () => {
           <Col md={8}>
             <p>Feel free to contact me for any questions, job inquiries, or just to say hi!</p>
             <div className="cta">
-              <form className="footer-form" onSubmit={handleSubmit}>
+              <form className="footer-form" onSubmit={handleFormSubmit}>
                 <div className="form-group">
                   <label htmlFor="name" className="form-label">Name:</label>
                   <input type="text" name="name" id="name" required />
@@ -109,7 +117,9 @@ const Footer = () => {
                   field="message"
                   errors={state.errors}
                 />
-                <button type="submit" disabled={state.submitting}>Send</button>
+                <button type="submit" disabled={state.submitting}>
+                  Send
+                </button>
               </form>
             </div>
           </Col>
