@@ -44,5 +44,3 @@ If you have any questions or would like to know more about myself, feel free to 
 - Portfolio: [https://brandonle.azurewebsites.net](https://brandonle.azurewebsites.net/)
 
 Thank you for visiting!
-
-test to push to github after renaming repo.
