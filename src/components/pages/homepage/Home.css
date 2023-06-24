@@ -23,6 +23,10 @@ img {
   margin-bottom: 20px;
 }
 
+p{
+  color: white;
+}
+
 @media (max-width: 1024px) {
   .name-style{
     font-size: 3rem;
