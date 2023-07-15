@@ -6,6 +6,7 @@ This is a simple portfolio website built with React, Bootstrap, and Typescript. 
 
 The application is deployed on Azure and can be accessed using the following link:
 [Brandon Le's Portfolio!](https://brandonle.azurewebsites.net/)
+Azure links unavailable at the moment. I'm sorry for the inconvenience, but please be patient and I'll have this re-hosted soon. Thank you!
 
 ## Features
 
