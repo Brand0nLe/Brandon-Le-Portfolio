@@ -47,8 +47,8 @@ const Footer = () => {
         <div className='footer-top-space'></div>
         <Row>
           <Col md={4}>
-            <h4>Contact Me</h4>
-            <p>209-244-2325</p>
+            <h4 className='blackFont'>Contact Me</h4>
+            <p className='blackFont'>209-244-2325</p>
             <div className="footer-social-icons">
               <motion.a
                 href="https://github.com/Brand0nLe"
@@ -88,13 +88,13 @@ const Footer = () => {
                 <FaFilePdf />
               </motion.a>
             </div>
-            <p>© 2023 [Brandon] Cuong Tran Le</p>
-            <p>CodeStack Academy Day Class '23</p>
-            <p>Profile picture credit: Redhatfter</p>
+            <p className='blackFont'>© 2023 [Brandon] Cuong Tran Le</p>
+            <p className='blackFont'>CodeStack Academy Day Class '23</p>
+            <p className='blackFont'>Profile picture credit: Redhatfter</p>
 
           </Col>
           <Col md={8}>
-            <p>Feel free to contact me for any questions, job inquiries, or just to say hi!</p>
+            <p className='blackFont'>Feel free to contact me for any questions, job inquiries, or just to say hi!</p>
             <div className="cta">
               <form className="footer-form" onSubmit={handleFormSubmit}>
                 <div className="form-group">

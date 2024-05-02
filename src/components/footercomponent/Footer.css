@@ -20,14 +20,6 @@ footer {
   margin-top: 50px;
 }
 
-.footer-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
 .footer-form label {
   margin-bottom: 0.5rem;
   font-size: 1rem;
@@ -51,7 +43,7 @@ footer {
 
 .footer-form button[type="submit"] {
   background-color: darkslategray;
-  min-width: 100%;
+  width: 100%;
   color: #fff;
   padding: 0.5rem 1rem;
   border: none;
@@ -107,7 +99,6 @@ footer {
   color: #999;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
   .footer-form input,
   .footer-form textarea {
@@ -122,4 +113,8 @@ footer {
 
 .footer-top-space {
   margin-top: 40px;
+}
+
+.blackFont {
+  color: black!important;
 }

@@ -52,19 +52,16 @@ const Home = () => {
                 <motion.h2 animate={{ y: 20, opacity: 1 }} initial={{ y: 0, opacity: 0 }} className="name-style">Brandon Le</motion.h2>
               </Col>
               <p>
-                Currently a student at CodeStack Academy, graduating September 2023.
+                Currently a Junior Web Developer with CodeStack.
               </p>
               <p>
-                During my time at CodeStack Academy, I have gained valuable knowledge and hands-on experience in various technologies and programming languages such as JavaScript, React, CSS, and HTML, and I'm always eager to expand my skill set and stay up-to-date with the latest industry trends.
+                Graduated from CodeStack Academy in 2023. During my time at CodeStack Academy, I have gained valuable knowledge and hands-on experience in various technologies and programming languages such as JavaScript, React, CSS, and HTML, and I'm always eager to expand my skill set and stay up-to-date with the latest industry trends.
               </p>
               <p>
                 Prior to my journey in coding, I worked as a pharmacy technician for over 7 years. While I enjoyed my time in the pharmaceutical industry, I decided to make a career transition when I encountered a great opportunity to pursue my passion for programming.
               </p>
               <p>
-                Aside from coding, I love cooking and exploring new recipes, especially when it comes to Vietnamese cuisine. It helps me relax and recharge after spending hours immersed in coding projects.
-              </p>
-              <p>
-                My current goal is to continue developing my front-end skills and spend time programming my current passion project, Pill Pal. If you're interested please visit my projects to learn more about it, or feel free to reach out to me through the contact information provided below. I look forward to connecting with you and thanks for visiting my portfolio!
+                My current goal is to continue developing my skills and spend time programming my current passion project, Pill Pal. If you're interested please visit my projects to learn more about it, or feel free to reach out to me through the contact information provided below. I look forward to connecting with you and thanks for visiting my portfolio!
               </p>
             </Row>
 
